@@ -39,7 +39,7 @@ while (true) {
 
   prompt('Do you wnat to pay again (y/n)?');
   let answer = readline.question().toLowerCase();
-  while (ansswer[0] !== 'n' && answer[0] !== 'y') {
+  while (answer[0] !== 'n' && answer[0] !== 'y') {
     prompt('Please enter "y" or "n".');
     answer = readline.question().toLowerCase();
   }
