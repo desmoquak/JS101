@@ -71,7 +71,7 @@ while (true) {
     break;
 }
 
-//console.log(' ');
+
 prompt('Final Score');
 displayScore(playerScore, computerScore);
-//prompt('Come again!');
+
